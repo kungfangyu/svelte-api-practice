@@ -1,8 +1,11 @@
 {
-  "name": "svelte-app",
+  "name": "svelte-api-practice",
+  "homepage": "https://kungfangyu.github.io/msvelte-api-practice",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
@@ -18,6 +21,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "gh-pages": "^3.2.0",
     "sirv-cli": "^1.0.0"
   }
 }

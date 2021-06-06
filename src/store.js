@@ -1,7 +1,7 @@
 /*
  * @Date: 2021-05-28 00:40:56
  * @LastEditors: Fane Kung
- * @LastEditTime: 2021-05-28 01:21:22
+ * @LastEditTime: 2021-06-07 00:34:53
  * @FilePath: /svelte-api-project/src/store.js
  */
 import { writable, readable } from "svelte/store";
